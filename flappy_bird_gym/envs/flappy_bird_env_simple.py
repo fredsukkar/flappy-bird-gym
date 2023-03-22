@@ -89,6 +89,12 @@ class FlappyBirdEnvSimple(gym.Env):
         self._bird_color = bird_color
         self._pipe_color = pipe_color
         self._bg_type = background
+        
+        self._renderer = FlappyBirdRenderer(screen_size=self._screen_size,
+                                                bird_color=self._bird_color,
+                                                pipe_color=self._pipe_color,
+                                                background=self._bg_type,
+                                                audio_on=self._audio_on)
 
     def _get_observation(self):
         up_pipe = low_pipe = None
