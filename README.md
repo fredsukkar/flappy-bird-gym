@@ -1,3 +1,7 @@
+Modifications:
+* Added third-person and on-board camera rendering modes.
+* Made runnable on google colab notebook
+
 ## Flappy Bird for OpenAI Gym
 
 ![Python versions](https://img.shields.io/pypi/pyversions/flappy-bird-gym)
